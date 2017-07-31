@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "114289435374",
+    "firebase_url": "https://tourvaal.firebaseio.com",
+    "project_id": "tourvaal",
+    "storage_bucket": "tourvaal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114289435374:android:d4f1457503613f45",
+        "android_client_info": {
+          "package_name": "com.example.admin.tour_vaal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "114289435374-0k3ueta4d391v89a3be866af7i719401.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.admin.tour_vaal",
+            "certificate_hash": "d3e139c365948b7ba9348a641ad25419ee32bc36"
+          }
+        },
+        {
+          "client_id": "114289435374-e4bbqrnjc3je1ga3uo9vo6navef897nq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaJ5nmvnxlxY2byxM3jZ5L5fLs0ghrIMA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "114289435374-e4bbqrnjc3je1ga3uo9vo6navef897nq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

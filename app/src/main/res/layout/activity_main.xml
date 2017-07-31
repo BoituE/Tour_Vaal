@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.tour_vaal.MainActivity">
+
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_height="wrap_content"
+        android:layout_width="368dp"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="1dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/buttonAddMall"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="Add Mall"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="44dp"
+        android:layout_below="@+id/editTextName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp" />
+
+    <EditText
+        android:id="@+id/editTextAdress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/buttonAddMall"
+        android:layout_below="@+id/editTextName"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_centerHorizontal="true"/>
+
+    <ListView
+        android:id="@+id/ListViewMalls"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignEnd="@+id/buttonAddMall"
+        android:layout_below="@+id/buttonAddMall"
+        android:layout_marginTop="44dp" />
+</RelativeLayout>
